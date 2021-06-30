@@ -79,7 +79,7 @@ jest.doMock('react-native/Libraries/Components/Touchable/TouchableOpacity', () =
 );
 
 // Re-mock ReactNative
-jest.mock('react-native/Libraries/Animated/src/NativeAnimatedHelper');
+jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
 jest.mock('react-native/Libraries/Renderer/shims/ReactNative');
 
 // Mock LogBox
